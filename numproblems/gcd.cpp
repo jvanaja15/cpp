@@ -8,7 +8,7 @@ int main()
     cin>>num1;
     cout<<"Enter number 2:";
     cin>>num2;
-    if(num1>num2)
+    if(num1<num2)
        limit=num1;
     else
        limit=num2;
@@ -19,7 +19,7 @@ int main()
             gcd=i;
         }
     }
-    cout<<"GSD is "<<gcd;
+    cout<<"GCD is "<<gcd;
 return 0;
 
 }
