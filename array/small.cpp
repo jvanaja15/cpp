@@ -11,15 +11,15 @@ int main()
     {
         cin>>arr[i];
     }
-    int largest=arr[0];
-    for(int i=1;i<n;i++)// already 0 fix panitom so 1 la irunthu check panalam
+    int smallest=arr[0];
+    for(int i=1;i<n;i++)
     {
-        if(arr[i]>largest)
+        if(arr[i]<smallest)
         {
-            largest=arr[i];
+            smallest=arr[i];
         }
     }
-    cout<<"largest element is:"<<largest;
+    cout<<"smallest element is:"<<smallest;
     return 0;
 
 }
