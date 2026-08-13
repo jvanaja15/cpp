@@ -4,13 +4,13 @@ int main()
 {
     int arr[5]={20,10,40,80,30};
     int n=5;
-    int max=0;
+    int max=arr[0];
     for(int i=1;i<n;i++){
         if(arr[i]>max){
             max=arr[i];
         }
     }
-    int sec_max=0;
+    int sec_max=arr[0];
     for(int i=1;i<n;i++){
         if(arr[i]>sec_max && arr[i]!=max){
             sec_max=arr[i];        }
