@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int arr[5]={21,22,24,25,26};
+   int arr[5] = {25, 21, 26, 22, 24};
     int n=5;
     int ex_sum=0;
     int org_sum=0;
