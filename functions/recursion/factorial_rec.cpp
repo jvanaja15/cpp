@@ -14,6 +14,6 @@ int main()
 {
     int factorial;
     factorial= fact(5);
-    cout<<factorial<<" ";
+    cout<<factorial;
     return 0;
 } 
