@@ -5,9 +5,14 @@ int main()
 {
     string name="vanaja";
    char *p=&name[0];
-    int n=6;
+   int len=0;
+   while(*p!='\0'){
+    len++;
+    p++;
+   } 
+   p=&name[0];//loop end la pointer null la irukum so restart.
     char *start=p;
-    char *end=p+n-1;
+    char *end=p+len-1;
     while(start<end)
     {
         char temp=*start;
