@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    string s1="v";
+    string s1="va";
     string s2="va";
     char *p=&s1[0];
     char *q=&s2[0];
