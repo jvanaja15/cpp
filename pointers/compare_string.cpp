@@ -3,12 +3,12 @@ using namespace std;
 
 int main()
 {
-    string s1="vanaja";
-    string s2="vanaj";
+    string s1="v";
+    string s2="va";
     char *p=&s1[0];
     char *q=&s2[0];
     bool same=true;
-    while(*p!='\0' && *q!='\0')//same length
+    while(*p!='\0' || *q!='\0')//atleast one string has character
     {
         if(*q!=*p )
         {
@@ -18,10 +18,7 @@ int main()
         q++;
         p++;
     }
-    if(*p != '\0' || *q != '\0')//excess length
-{
-    same=false;//if any one string have extra character.. lentgh becomes false.so different
-}
+    
   if(same)
   {
     cout<<"two strings are same";
